@@ -8,19 +8,19 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * Tests for {@link JoinUrlGuideImpl}.
+ * Tests for {@link UrlToQueryParamValuesGuideImpl}.
  */
-@Preprocessing(JoinUrlGuideImpl.class)
-public class JoinUrlGuideImplTest extends AbstractJoinUrlGuideTest {
+@Preprocessing(UrlToQueryParamValuesGuideImpl.class)
+public class UrlToQueryParamValuesGuideImplTest extends AbstractUrlToQueryParamValuesGuideTest {
 
   @Override
-  JoinUrlGuide getGuide() {
-    return new JoinUrlGuideImpl();
+  UrlToQueryParamValuesGuide getGuide() {
+    return new UrlToQueryParamValuesGuideImpl();
   }
 
   @BeforeEach
   public void init() {
-    IntellispacesFramework.loadModule(JoinUrlGuideImpl.class);
+    IntellispacesFramework.loadModule(UrlToQueryParamValuesGuideImpl.class);
   }
 
   @AfterEach
@@ -29,7 +29,7 @@ public class JoinUrlGuideImplTest extends AbstractJoinUrlGuideTest {
   }
 
   @Test
-  public void testJoinUrl() {
-    super.testJoinUrl();
+  public void testUrlToQueryParamValues() {
+    super.testUrlToQueryParamValues();
   }
 }
