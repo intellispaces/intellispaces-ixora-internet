@@ -3,9 +3,9 @@ package intellispaces.ixora.internet;
 import intellispaces.common.base.text.TextFunctions;
 import intellispaces.common.base.type.Pair;
 import intellispaces.common.base.type.Pairs;
-import intellispaces.framework.core.annotation.Guide;
-import intellispaces.framework.core.annotation.Mapper;
-import intellispaces.framework.core.exception.TraverseException;
+import intellispaces.jaquarius.annotation.Guide;
+import intellispaces.jaquarius.annotation.Mapper;
+import intellispaces.jaquarius.exception.TraverseException;
 import intellispaces.ixora.data.collection.List;
 import intellispaces.ixora.data.collection.Lists;
 

@@ -1,8 +1,7 @@
 package intellispaces.ixora.internet;
 
-import intellispaces.framework.core.IntellispacesFramework;
-import intellispaces.framework.core.annotation.Preprocessing;
-import intellispaces.framework.core.system.Modules;
+import intellispaces.jaquarius.annotation.Preprocessing;
+import intellispaces.jaquarius.system.Modules;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -20,7 +19,7 @@ public class UrlToQueryParamValuesGuideImplTest extends AbstractUrlToQueryParamV
 
   @BeforeEach
   public void init() {
-    IntellispacesFramework.loadModule(UrlToQueryParamValuesGuideImpl.class);
+    Modules.get(UrlToQueryParamValuesGuideImpl.class).start();
   }
 
   @AfterEach
