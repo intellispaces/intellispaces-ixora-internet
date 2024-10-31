@@ -15,11 +15,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 @Guide
-public class UrlToQueryParamValuesGuideImpl implements UrlToQueryParamValuesGuide {
+public class UriStringToQueryParamGuideImpl implements UriStringToQueryParamGuide {
 
   @Mapper
   @Override
-  public List<String> urlToQueryParamValues(String url, String paramName) {
+  public List<String> uriStringToQueryParam(String url, String paramName) {
     if (url == null || paramName == null) {
       return null;
     }
