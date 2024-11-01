@@ -7,19 +7,24 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * Tests for {@link UriStringToQueryParamGuideImpl}.
+ * Tests for {@link UriToQueryParamGuideImpl}.
  */
-@Preprocessing(UriStringToQueryParamGuideImpl.class)
-public class UriStringToQueryParamGuideImplTest extends AbstractUrlToQueryParamValuesGuideTest {
+@Preprocessing(UriToQueryParamGuideImpl.class)
+public class UriToQueryParamGuideImplTest extends AbstractUrlToQueryParamGuideTest {
 
   @Override
-  UriStringToQueryParamGuide getGuide() {
-    return new UriStringToQueryParamGuideImpl();
+  UriToQueryParamGuide getGuide() {
+    return new UriToQueryParamGuideImpl();
+  }
+
+  @Override
+  Uri getUri(String string) {
+    return Uris.get(string);
   }
 
   @BeforeEach
   public void init() {
-    Modules.get(UriStringToQueryParamGuideImpl.class).start();
+    Modules.get(UriToQueryParamGuideImpl.class).start();
   }
 
   @AfterEach

@@ -21,6 +21,12 @@ public abstract class UriHandle implements UnmovableUri {
 
   @Mapper
   @Override
+  public String query() {
+    return uri.getQuery();
+  }
+
+  @Mapper
+  @Override
   public String toString() {
     return uri.toString();
   }

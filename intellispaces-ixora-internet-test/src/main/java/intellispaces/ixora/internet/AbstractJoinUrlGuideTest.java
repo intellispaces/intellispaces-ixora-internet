@@ -1,7 +1,5 @@
 package intellispaces.ixora.internet;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 /**
  * Abstract test for {@link JoinUrlGuide} implementations.
  */
