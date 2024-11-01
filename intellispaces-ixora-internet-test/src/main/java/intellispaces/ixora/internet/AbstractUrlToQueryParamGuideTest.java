@@ -1,5 +1,7 @@
 package intellispaces.ixora.internet;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 /**
  * Tests for {@link UriToQueryParamGuide} implementations.
  */

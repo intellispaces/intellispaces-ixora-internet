@@ -1,5 +1,7 @@
 package intellispaces.ixora.internet;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 public abstract class AbstractSplitUriPathGuideTest {
 
   abstract SplitUriPathGuide getGuide();
@@ -14,7 +16,5 @@ public abstract class AbstractSplitUriPathGuideTest {
     assertThat(guide.splitUriPath("/a/b").nativeList()).containsExactly("a", "b");
     assertThat(guide.splitUriPath("/a/b/").nativeList()).containsExactly("a", "b");
     assertThat(guide.splitUriPath("/a//b/").nativeList()).containsExactly("a", "", "b");
-
-
   }
 }
