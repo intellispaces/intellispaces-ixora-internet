@@ -19,11 +19,11 @@ public class UriToQueryParamGuideImpl implements UriToQueryParamGuide {
   @Override
   public List<String> uriToQueryParam(Uri uri, String paramName) {
     if (uri == null || paramName == null) {
-      return null;
+      return Lists.empty(String.class);
     }
     String query = uri.query();
     if (TextFunctions.isNullOrBlank(query)) {
-      return null;
+      return Lists.empty(String.class);
     }
 
     java.util.List<String> values = Arrays.stream(query.split("&"))
