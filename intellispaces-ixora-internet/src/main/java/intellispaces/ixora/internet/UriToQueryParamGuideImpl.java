@@ -1,8 +1,8 @@
 package intellispaces.ixora.internet;
 
-import intellispaces.common.base.text.TextFunctions;
-import intellispaces.common.base.type.Pair;
-import intellispaces.common.base.type.Pairs;
+import intellispaces.common.base.data.Pair;
+import intellispaces.common.base.data.Pairs;
+import intellispaces.common.base.text.StringFunctions;
 import intellispaces.ixora.data.collection.List;
 import intellispaces.ixora.data.collection.Lists;
 import intellispaces.jaquarius.annotation.Guide;
@@ -22,7 +22,7 @@ public class UriToQueryParamGuideImpl implements UriToQueryParamGuide {
       return Lists.empty(String.class);
     }
     String query = uri.query();
-    if (TextFunctions.isNullOrBlank(query)) {
+    if (StringFunctions.isNullOrBlank(query)) {
       return Lists.empty(String.class);
     }
 
