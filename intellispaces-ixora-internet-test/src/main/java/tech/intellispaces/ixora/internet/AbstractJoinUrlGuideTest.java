@@ -1,4 +1,4 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

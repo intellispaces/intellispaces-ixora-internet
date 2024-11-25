@@ -1,10 +1,10 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.jaquarius.annotation.Preprocessing;
-import intellispaces.jaquarius.system.Modules;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tech.intellispaces.jaquarius.annotation.Preprocessing;
+import tech.intellispaces.jaquarius.system.Modules;
 
 /**
  * Tests for {@link SplitUriPathGuideImpl} class.

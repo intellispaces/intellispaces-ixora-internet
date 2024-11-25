@@ -1,4 +1,4 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
 import java.net.URI;
 

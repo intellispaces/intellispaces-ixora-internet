@@ -1,7 +1,7 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.jaquarius.annotation.Guide;
-import intellispaces.jaquarius.annotation.Mapper;
+import tech.intellispaces.jaquarius.annotation.Guide;
+import tech.intellispaces.jaquarius.annotation.Mapper;
 
 @Guide
 public class JoinUrlGuideImpl implements JoinUrlGuide {

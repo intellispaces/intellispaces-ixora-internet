@@ -1,7 +1,7 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.jaquarius.annotation.Channel;
-import intellispaces.jaquarius.annotation.Domain;
+import tech.intellispaces.jaquarius.annotation.Channel;
+import tech.intellispaces.jaquarius.annotation.Domain;
 
 @Domain("a6b707b6-21e8-4fee-9d0d-ac09469a8544")
 public interface UriDomain {

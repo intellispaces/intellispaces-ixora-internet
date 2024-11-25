@@ -1,12 +1,12 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.ixora.data.collection.List;
-import intellispaces.ixora.data.collection.Lists;
-import intellispaces.jaquarius.annotation.Guide;
-import intellispaces.jaquarius.annotation.Mapper;
 import tech.intellispaces.entity.data.Pair;
 import tech.intellispaces.entity.data.Pairs;
 import tech.intellispaces.entity.text.StringFunctions;
+import tech.intellispaces.ixora.data.collection.List;
+import tech.intellispaces.ixora.data.collection.Lists;
+import tech.intellispaces.jaquarius.annotation.Guide;
+import tech.intellispaces.jaquarius.annotation.Mapper;
 
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;

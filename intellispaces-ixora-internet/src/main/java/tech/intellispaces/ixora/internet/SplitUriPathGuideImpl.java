@@ -1,9 +1,9 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.ixora.data.collection.List;
-import intellispaces.ixora.data.collection.Lists;
-import intellispaces.jaquarius.annotation.Guide;
-import intellispaces.jaquarius.annotation.Mapper;
+import tech.intellispaces.ixora.data.collection.List;
+import tech.intellispaces.ixora.data.collection.Lists;
+import tech.intellispaces.jaquarius.annotation.Guide;
+import tech.intellispaces.jaquarius.annotation.Mapper;
 
 import java.util.Arrays;
 

@@ -1,8 +1,8 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.ixora.data.collection.ListDomain;
-import intellispaces.jaquarius.annotation.Channel;
-import intellispaces.jaquarius.annotation.Ontology;
+import tech.intellispaces.ixora.data.collection.ListDomain;
+import tech.intellispaces.jaquarius.annotation.Channel;
+import tech.intellispaces.jaquarius.annotation.Ontology;
 
 @Ontology
 public interface UriOntology {

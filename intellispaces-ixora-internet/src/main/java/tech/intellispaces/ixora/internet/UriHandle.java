@@ -1,7 +1,7 @@
-package intellispaces.ixora.internet;
+package tech.intellispaces.ixora.internet;
 
-import intellispaces.jaquarius.annotation.Mapper;
-import intellispaces.jaquarius.annotation.ObjectHandle;
+import tech.intellispaces.jaquarius.annotation.Mapper;
+import tech.intellispaces.jaquarius.annotation.ObjectHandle;
 
 import java.net.URI;
 
