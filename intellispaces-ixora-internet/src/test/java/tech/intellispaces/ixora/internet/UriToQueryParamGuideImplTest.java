@@ -24,12 +24,12 @@ public class UriToQueryParamGuideImplTest extends AbstractUrlToQueryParamGuideTe
 
   @BeforeEach
   public void init() {
-    Modules.get(UriToQueryParamGuideImpl.class).start();
+    Modules.load(UriToQueryParamGuideImpl.class).start();
   }
 
   @AfterEach
   public void deinit() {
-    Modules.current().stop();
+    Modules.unload();
   }
 
   @Test
