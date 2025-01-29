@@ -6,10 +6,10 @@ import tech.intellispaces.jaquarius.annotation.ObjectHandle;
 import java.net.URI;
 
 @ObjectHandle(UriDomain.class)
-public abstract class UriHandle implements UnmovableUri {
+public abstract class JavaUriHandle implements UnmovableUriHandle {
   private final URI uri;
 
-  public UriHandle(URI uri) {
+  public JavaUriHandle(URI uri) {
     this.uri = uri;
   }
 

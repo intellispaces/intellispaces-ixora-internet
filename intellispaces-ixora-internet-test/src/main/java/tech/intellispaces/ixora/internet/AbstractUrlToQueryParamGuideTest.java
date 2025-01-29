@@ -9,7 +9,7 @@ public abstract class AbstractUrlToQueryParamGuideTest {
 
   abstract UriToQueryParamGuide getGuide();
 
-  abstract Uri getUri(String string);
+  abstract UriHandle getUri(String string);
 
   public void testUrlToQueryParamValues() {
     UriToQueryParamGuide guide = getGuide();

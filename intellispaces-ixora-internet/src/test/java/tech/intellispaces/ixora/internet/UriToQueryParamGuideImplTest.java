@@ -16,7 +16,7 @@ public class UriToQueryParamGuideImplTest extends AbstractUrlToQueryParamGuideTe
   }
 
   @Override
-  Uri getUri(String string) {
+  UriHandle getUri(String string) {
     return Uris.get(string);
   }
 
