@@ -1,8 +1,8 @@
 package tech.intellispaces.ixora.internet;
 
-import tech.intellispaces.general.data.Pair;
-import tech.intellispaces.general.data.Pairs;
-import tech.intellispaces.general.text.StringFunctions;
+import tech.intellispaces.commons.base.data.Pair;
+import tech.intellispaces.commons.base.data.Pairs;
+import tech.intellispaces.commons.base.text.StringFunctions;
 import tech.intellispaces.ixora.data.collection.Lists;
 import tech.intellispaces.jaquarius.annotation.Guide;
 import tech.intellispaces.jaquarius.annotation.Mapper;
